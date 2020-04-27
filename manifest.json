@@ -1,6 +1,6 @@
 {
   "description": "Close the zoom tab once its redirected to zoom",
-  "homepage_url": "https://github.com/andymckay/auto-close-zoom-tab",
+  "homepage_url": "https://github.com/grrttedwards/auto-close-zoom-tab",
   "manifest_version": 2,
   "name": "Auto close zoom tab",
   "permissions": [
@@ -10,5 +10,5 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "version": "0.2"
+  "version": "0.3"
 }
