@@ -1,9 +1,7 @@
-function maybeClose(tabId, changeInfo, tab) {
-	if (tab.url.match(/https:\/\/([a-z]+).zoom.us\/[a-z]\/([0-9]+)\?(.*)?status=success/)) {
-		setTimeout(function() {
-			browser.tabs.remove(tab.id);
-		}, 2000);
-	}
+function closeZoomTabOnSuccessListener(tabId, changeInfo, tab) {
+  if (tab.url.match(/https:\/\/.+?\.zoom\.us\/.+?status=success/)) {
+    browser.tabs.remove(tab.id);
+  }
 }
 
-browser.tabs.onUpdated.addListener(maybeClose);
+browser.tabs.onUpdated.addListener(closeZoomTabOnSuccessListener);
