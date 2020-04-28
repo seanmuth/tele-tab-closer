@@ -1,5 +1,5 @@
 {
-  "description": "Close the zoom tab once its redirected to zoom",
+  "description": "Close the Zoom tab once it's redirected to Zoom",
   "homepage_url": "https://github.com/grrttedwards/auto-close-zoom-tab",
   "manifest_version": 2,
   "name": "Zoom tab closer",
