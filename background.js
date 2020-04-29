@@ -1,6 +1,8 @@
 function closeZoomTabOnSuccessListener(tabId, changeInfo, tab) {
   if (tab.url.match(/https:\/\/.+?\.zoom\.us\/.+?status=success/)) {
-    browser.tabs.remove(tab.id);
+    setTimeout(() => {
+      browser.tabs.remove(tab.id)
+    }, 2000)
   }
 }
 
