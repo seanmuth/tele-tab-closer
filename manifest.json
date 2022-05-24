@@ -1,17 +1,20 @@
 {
-  "description": "Close the Zoom tab once it's redirected to Zoom",
-  "homepage_url": "https://github.com/grrttedwards/zoom-tab-closer",
-  "manifest_version": 2,
-  "name": "Zoom tab closer",
+  "description": "Close the Teleport tab once it's redirected",
+  "homepage_url": "https://github.com/seanmuth/tele-tab-closer",
+  "manifest_version": 3,
+  "name": "Tele tab closer",
   "permissions": [
     "activeTab",
     "tabs"
   ],
+  "host_permissions": [
+    "https://tele.astronomer.cloud/"
+  ],
   "background": {
-    "scripts": ["background.js"]
+    "service_worker": "background.js"
   },
   "icons": {
     "128": "icon-128.png"
   },
-  "version": "0.3.4"
+  "version": "0.1.0"
 }

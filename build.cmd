@@ -1,5 +1,5 @@
 @echo off
-set zipfile="zoom-tab-closer.zip"
+set zipfile="tele-tab-closer.zip"
 echo Cleaning up...
 if exist %zipfile% del %zipfile%
 echo Creating zip...

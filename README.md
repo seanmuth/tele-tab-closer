@@ -1,9 +1,8 @@
-A small WebExtension that auto closes the zoom tab (https://zoom.us/) when you launch a meeting, because it doesn't do that itself for some reason.
+A small WebExtension that auto closes the teleport tab (https://teleport.astronomer.cloud/).
 
-Find it published for Firefox here:
+How to install unpacked extension:
 
-https://addons.mozilla.org/en-US/firefox/addon/zoom-tab-closer
-
-And Chrome here:
-
-https://chrome.google.com/webstore/detail/zoom-tab-closer/dipbdmjcnihnpjpignoilhljekeimlkp?hl=en
+1. Go to chrome://extensions/.
+2. At the top right, turn on Developer mode.
+3. Click Load unpacked.
+4. Find and select the app or extension folder.
