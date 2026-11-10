@@ -1,2 +1,5 @@
-
 tele-tab-closer.zip
+*.crx
+*.pem
+*.xpi
+web-ext-artifacts/
