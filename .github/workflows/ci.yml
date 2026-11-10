@@ -17,7 +17,7 @@ jobs:
         with:
           node-version: 22
       - name: Lint (Firefox/Chrome manifest)
-        run: npx --yes web-ext@10.8.0 lint --source-dir . --ignore-files tele-tab-closer.zip build.sh build.cmd
+        run: npx --yes web-ext@10.8.0 lint --self-hosted --source-dir . --ignore-files tele-tab-closer.zip build.sh build.cmd 'scripts/**'
       - name: Build zip
         run: ./build.sh
       - uses: actions/upload-artifact@v4

@@ -3,3 +3,5 @@ tele-tab-closer.zip
 *.pem
 *.xpi
 web-ext-artifacts/
+.amo-upload-uuid
+updates.json
